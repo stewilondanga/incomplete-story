@@ -85,7 +85,7 @@ body {
 
 .container p sub:hover, .container p sup:hover {
   /* on hover change the color of the backround to match the color of the border */
-  /*  background: #838C7B;
+  background: #838C7B;
 }
 
 /*.containers {
