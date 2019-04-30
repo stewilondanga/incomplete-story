@@ -79,10 +79,11 @@ body {
   bottom: 10px;
 }
 
-/*.container p sub {
+.container p sub {
   top: 10px;
 }
-.container p sub:hover, .container p sup:hover {
+
+/*.container p sub:hover, .container p sup:hover {
   /* on hover change the color of the backround to match the color of the border */
 /*  background: #838C7B;
 }
