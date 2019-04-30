@@ -75,10 +75,11 @@ body {
   position: relative;
 }
 
-/*.container p sup {
+.container p sup {
   bottom: 10px;
 }
-.container p sub {
+
+/*.container p sub {
   top: 10px;
 }
 .container p sub:hover, .container p sup:hover {
