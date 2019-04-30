@@ -56,10 +56,11 @@ body {
 
 .container p:first-letter {
   /* style the first letter of every paragraph to be larger and cursive */
-  /*font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 2rem;
 }
-.container span.choice {
+
+/*.container span.choice {
   font-size: 1.4rem;
   margin: 0 0.3rem;
 }
@@ -70,7 +71,7 @@ body {
   border: 2px solid #838C7B;
   transition: all 0.2s ease-out;
   /* position relative to separate a little more the elements from each other, vertically */
-  /*position: relative;
+/*position: relative;
 }
 .container p sup {
   bottom: 10px;
@@ -80,7 +81,7 @@ body {
 }
 .container p sub:hover, .container p sup:hover {
   /* on hover change the color of the backround to match the color of the border */
-  /*  background: #838C7B;
+/*  background: #838C7B;
 }
 
 .containers {
