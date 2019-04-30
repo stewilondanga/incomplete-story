@@ -13,8 +13,8 @@ const sub = document.querySelectorAll("p sub");
 
 // add an event listener on all sup and sub elements, at which point call a function which removes the choice not made and displays the correct text in a span
 sup.forEach(sup => sup.addEventListener("click", displayChoice));
-/*sub.forEach(sub => sub.addEventListener("click", displayChoice));
-
+sub.forEach(sub => sub.addEventListener("click", displayChoice));
+/*
 function displayChoice(e) {
     // target the parent element of the clicked sup/sub element
     let parentSpan = e.target.parentNode;
