@@ -8,8 +8,8 @@ var navigate = (function() {
 })();
 
 // target all sup and sub elements in the paragraph element
-/*const sup = document.querySelectorAll("p sup");
-const sub = document.querySelectorAll("p sub");
+const sup = document.querySelectorAll("p sup");
+/*const sub = document.querySelectorAll("p sub");
 
 // add an event listener on all sup and sub elements, at which point call a function which removes the choice not made and displays the correct text in a span
 sup.forEach(sup => sup.addEventListener("click", displayChoice));
