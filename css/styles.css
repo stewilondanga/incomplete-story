@@ -72,9 +72,10 @@ body {
   border: 2px solid #838C7B;
   transition: all 0.2s ease-out;
   /* position relative to separate a little more the elements from each other, vertically */
-  /*position: relative;
+  position: relative;
 }
-.container p sup {
+
+/*.container p sup {
   bottom: 10px;
 }
 .container p sub {
@@ -82,7 +83,7 @@ body {
 }
 .container p sub:hover, .container p sup:hover {
   /* on hover change the color of the backround to match the color of the border */
-  /*  background: #838C7B;
+/*  background: #838C7B;
 }
 
 .containers {
