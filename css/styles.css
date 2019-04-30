@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico");
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,7 +22,6 @@
   height: 1.5em;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico");
 
 * {
   box-sizing: border-box;
@@ -54,12 +54,12 @@ body {
 .container p {
   font-size: 1.4rem;
   /* increase the line-height to accommodate for the vertically positioned sup and sub elements */
-  /*line-height: 2;
+/*line-height: 2;
   margin: 1rem;
 }
 .container p:first-letter {
   /* style the first letter of every paragraph to be larger and cursive */
-  /*font-family: 'Pacifico', cursive;
+/*font-family: 'Pacifico', cursive;
   font-size: 2rem;
 }
 .container span.choice {
@@ -73,7 +73,7 @@ body {
   border: 2px solid #838C7B;
   transition: all 0.2s ease-out;
   /* position relative to separate a little more the elements from each other, vertically */
-  /*position: relative;
+/*position: relative;
 }
 .container p sup {
   bottom: 10px;
