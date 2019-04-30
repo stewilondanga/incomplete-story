@@ -60,11 +60,12 @@ body {
   font-size: 2rem;
 }
 
-/*.container span.choice {
+.container span.choice {
   font-size: 1.4rem;
   margin: 0 0.3rem;
 }
-.container p sub, .container p sup {
+
+/*.container p sub, .container p sup {
   font-style: italic;
   cursor: pointer;
   border-radius: 6px;
