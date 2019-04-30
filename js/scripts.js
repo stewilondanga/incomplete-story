@@ -25,14 +25,14 @@ function displayChoice(e) {
   parentSpan.style.marginLeft = `0px`;
   parentSpan.style.marginRight = `0px`;
 }
-/*
+
 // loop through all sup elements (which are horizontally pushed to the right of sub elements)
 sub.forEach(sub => {
-    // consider the width of the sub elements
-    let subWidth = sub.offsetWidth;
+  // consider the width of the sub elements
+  let subWidth = sub.offsetWidth;
 
-    // push the sub elements to the left, by a measure equal to their width
-    sub.parentNode.style.marginLeft = `-${subWidth}px`;
-    // move the connected sup element to the right by an equal amount, making the sup and sub elements coincide to the right edge of the sub elements
-    sub.parentNode.querySelector("sup").style.left = `${subWidth}px`;
+  // push the sub elements to the left, by a measure equal to their width
+  sub.parentNode.style.marginLeft = `-${subWidth}px`;
+  // move the connected sup element to the right by an equal amount, making the sup and sub elements coincide to the right edge of the sub elements
+  sub.parentNode.querySelector("sup").style.left = `${subWidth}px`;
 });
