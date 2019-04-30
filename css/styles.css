@@ -43,10 +43,11 @@ body {
   text-align: center;
 }
 
-/*.container h1 sub {
+.container h1 sub {
   font-size: 1rem;
 }
-.container p {
+
+/*.container p {
   font-size: 1.4rem;
   /* increase the line-height to accommodate for the vertically positioned sup and sub elements */
 /*line-height: 2;
